@@ -94,5 +94,6 @@ footer h3 {
 }
 
 .bio-row {
-    margin: 120px 0;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
