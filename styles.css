@@ -38,7 +38,7 @@ body {
 }
 
 .neutral-paragraph {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .recent-post-images {
@@ -88,12 +88,30 @@ footer h3 {
     justify-content: flex-end;
     background-image: url(./about/aboutImages/aboutImage1.jpeg);
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.411);
-    background-blend-mode: darken;
-    height: 500px;
+    background-color: black;
+    /* background-blend-mode: ; */
+    height: 700px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bio-row {
     margin-top: 120px;
     margin-bottom: 120px;
+}
+
+
+/* Contact styles goes below */
+
+.contact-button {
+    gap: 20px;
+}
+
+.contact-button button {
+    width: 100%;
+}
+
+hr {
+    margin: 150px 0 0 0;
 }
