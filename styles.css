@@ -115,3 +115,22 @@ footer h3 {
 hr {
     margin: 150px 0 0 0;
 }
+
+
+/* Blog Post styles here */
+
+.blog-post-images {
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.post-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+figure {
+    border-left: 2px solid black;
+}

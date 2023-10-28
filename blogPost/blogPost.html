@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bedrok</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@900&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about/about.html">About</a>
@@ -41,49 +41,79 @@
             </div>
         </div>
     </nav>
-    <!-- Featured Post -->
 
     <section class="container my-5 section-padding featured-section">
-        <h3 class="text-muted mb-2">Featured Post</h3>
-        <div class="card w-100 featured-card">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <div class="card-body my-5 mx-5">
-                        <h5 class="card-title mb-3">ENTRENEURSHIP</h5>
-                        <p class="card-text h4 mb-3">Designers who changed the web</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <!-- <div class="col-md-4">
-                    <img src="./landingPagesImages/purpleBackground.jpeg" alt="" class="img-fluid rounded-end w-100 purple-image">
-                </div> -->
-                <div class="col-md-8">
-                    <img src="./landingPagesImages/purpleBackground.jpeg" alt="" class="img-fluid rounded-end w-100 purple-image">
-                </div>
+        <div class="card h-50 border-0 recent-post-cards">
+            <div class="card-body">
+                <p class="card-text neutral-paragraph mb-3">7 Things about web design <br>your boss wants you to know </p>
             </div>
+            <img src="./purpleBackground.jpeg" class="blog-post-images mb-5" alt="">
         </div>
     </section>
 
-    <!-- Recent Post Section -->
+    <!-- Post information below -->
+
+    <section class="container">
+        <div class="col-md-8 col-12 mx-auto">
+            <div class="post-update d-flex justify-content-between mx-auto border-top border-bottom text-muted mb-4">
+                <p class="mb-2"><small>Posted 11/1/22</small></p>
+                <p class="mb-2"><small>4 min read</small></p>
+            </div>
+            <div class="text-muted post-info mb-5">
+                <p><small>By Isaiah Trotter</small></p>
+            </div>
+            <div class="description">
+                <h1 class=" display-1">Nibh mauris cursus mattis molestie a iaculis at erat</h1>
+                <p>
+                    Lorem ipsum dolor sit amet. Aut praesentium molestiae sit amet consectetur id consequuntur velit et enim asperiores aut molestias ratione sit molestias iste in galisum maiores! Sit quibusdam omnis cum perferendis officia et molestiae beatae hic dolores
+                    architecto. Sit sunt a beatae nemo qui assumenda itaque exharumdelectus ea magnam voluptatem. Hic error cumque aut reiciendis molestiasutvoluptas consectetur et corrupti nihil.
+                </p>
+                <ol>
+                    <li>Ordered List</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                </ol>
+                <ul>
+                    <li>Unordered List</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                </ul>
+                <p class="mb-3">
+                    Lorem ipsum dolor sit amet. Aut praesentium molestiae sit amet consectetur id consequuntur velit et enim asperiores aut molestias ratione sit molestias iste in galisum maiores! Sit quibusdam omnis cum perferendis officia et molestiae beatae hic dolores
+                    architecto. Sit sunt a beatae nemo qui assumenda itaque exharumdelectus ea magnam voluptatem. Hic error cumque aut reiciendis molestiasutvoluptas consectetur et corrupti nihil.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet. Aut praesentium molestiae sit amet consectetur id consequuntur velit et enim asperiores aut molestias ratione sit molestias iste in galisum maiores! Sit quibusdam omnis cum perferendis officia et molestiae beatae hic dolores
+                    architecto.
+                </p>
+                <div class="post-image mt-4 mb-2">
+                    <img src="./Rectangle 13.png" class="col-12" alt="">
+                    <p class=""><em>image subtitle text</em></p>
+                </div>
+                <figure class="text-center p-2 col-8 mx-auto bg-light bg-gradient">
+                    <blockquote class="blockquote">
+                        <p><i>“Block quote elements are standard in all blog templates."</i></p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        <cite title="Source Title">Isaiah</cite>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- Other Articles Section -->
     <section class="recent-post-section mt-5 mb-5 section-padding">
         <div class="container">
-            <div class="d-flex justify-content-between">
-                <h2 class="text-muted mt-5 mb-4">Recent Posts</h2>
-                <p class="text-muted mt-5 mx-0"><a href="./blogPosts/seeAll.html" class="text-decoration-none text-dark">See All</a></p>
+            <div class="">
+                <h2 class="text-muted mt-5 mb-4">Other Articles</h2>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card border-top-0 recent-post-cards">
-                        <img src="./landingPagesImages/purpleBackground.jpeg" class="card-img-top recent-post-images" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title neutral-heading"><a href="./blogPost/blogPost.html" class="text-decoration-none text-dark">NEUTRAL</a></h5>
-                            <p class="card-text neutral-paragraph">7 Things about web design your boss wants you to know </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-top-0 recent-post-cards">
-                        <img src="./landingPagesImages/purpleBackground.jpeg" class="card-img-top  recent-post-images" alt="...">
+                        <img src="./purpleBackground.jpeg" class="card-img-top recent-post-images" alt="">
                         <div class="card-body">
                             <h5 class="card-title neutral-heading">NEUTRAL</h5>
                             <p class="card-text neutral-paragraph">7 Things about web design your boss wants you to know </p>
@@ -92,7 +122,16 @@
                 </div>
                 <div class="col">
                     <div class="card border-top-0 recent-post-cards">
-                        <img src="./landingPagesImages/purpleBackground.jpeg" class="card-img-top recent-post-images" alt="...">
+                        <img src="./purpleBackground.jpeg" class="card-img-top  recent-post-images" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title neutral-heading">NEUTRAL</h5>
+                            <p class="card-text neutral-paragraph">7 Things about web design your boss wants you to know </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-top-0 recent-post-cards">
+                        <img src="./purpleBackground.jpeg" class="card-img-top recent-post-images" alt="...">
                         <div class="card-body">
                             <h5 class="card-title neutral-heading">NEUTRAL</h5>
                             <p class="card-text neutral-paragraph">7 Things about web design your boss wants you to know </p>
